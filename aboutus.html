@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .upper {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+      }
+
+      marquee,
+      .marquee {
+        color: #cfa417;
+        width: 200%;
+      }
+      .college-name {
+        padding: 10px;
+        width: 160%;
+      }
+
+      nav {
+       
+        background-image: linear-gradient(to top, #cd7710, #de900f, #eeaa0d);
+        padding: 30px;
+        position: fixed;
+        
+      }
+     
+
+      nav-link {
+        margin: 13px;
+        font-size: 15px;
+      }
+
+      .aboutus
+      {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        padding: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-image: url("https://images.unsplash.com/photo-1607513746994-51f730a44832?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MTMyMzAwNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080");
+        text-align:justify;
+        background-repeat:inherit;
+        height: 450px;
+
+
+        
+      }
+      .aboutus img{
+        width: 410px;
+        height: 270px;
+     
+        margin: 10px;
+        margin-left: 90PX;
+        margin-top: 50px;
+      }
+       
+      .aboutus img:hover{
+        box-shadow: 0 0 5px #eedb9b, 0 0 25px #a08d51, 0 0 50px #eed171,
+          0 0 100px #eec12fb4;
+       }
+
+.about{
+ 
+  padding: 20px;
+  margin: 15px;
+ 
+}
+
+.about p{
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d1780a;
+    text-shadow: #cfa417;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+
+.about span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #633805;
+  text-shadow: #cfa417;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+   
+}
+
+
+.footer {
+        height: 30px;
+        color: #e0c867;
+        text-align: center;
+        background-image: linear-gradient(to top, #613805, #8b4f05, #db7f0f);
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <!--College logo and name-->
+    <div class="upper">
+      <div class="college-name">
+        <a href="home.html"><img width="50%" src="canva logo.png"</a>
+      </div>
+
+      <div>
+        <marquee behavior="scroll" direction="left">
+          <b>Call For Admission</b>
+          +91-9833443322 | <b>Email Us:</b>contact@college.org.in |
+          <a class="marquee" href="#"> Facebook |</a>
+          <a class="marquee" href="#">Twitter |</a>
+          <a class="marquee" href="#">Youtube |</a>
+          <a class="marquee" href="#">Instagram |</a>
+          <a class="marquee" href="#">Linkedin </a>
+        </marquee>
+      </div>
+    </div>
+
+    <!--Navigation  bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Institutes
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="engineering.html"
+                >Sanjivani College Of Engineering and MBA</a
+              >
+              <a class="dropdown-item" href="kbp.html"
+                >Sanjivani K.B.P Polytechnic , Best Polytechnic College</a
+              >
+              <a class="dropdown-item" href="pharma.html"
+                >Sanivani College of Pharmaceutical Research</a
+              >
+              <a class="dropdown-item" href="college.html"
+                >Sanivani Senior College ,Arts and Commerce</a
+              >
+              <a class="dropdown-item" href="junior.html">Sanivani Junior College </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            style="background-color: lightgoldenrodyellow"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button
+            style="background-color: lightgoldenrodyellow"
+            class="btn my-2 my-sm-0"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+<div class="aboutus">
+  <div class="row">
+    <div class="col">
+      <h1 style="color: #8b4f05;">About Us</h1>
+      <p>Sanjivani College of Engineering (An Autonomous Institute), Kopargaon is one among the premier technical institutes in Maharashtra state in the un-aided sector. Established in 1983 by the Sanjivani Rural Educational Society under the charismatic leadership of Shri. Shankarrao G. Kolhe, the Institute had its vision for social transformation and , upliftment of rural masses through education, training and research</p>
+    </div>
+    <div class="col">
+     <img src="aboutus.png" alt="">
+  </div>
+</div>
+</div>
+
+
+<!---about section /vision and mission-->
+<div class="about">
+  <div class="row">
+    <div class="col">
+       <img  style="margin-left:50px;padding: 10px;" src="Screenshot 2023-09-24 at 01-10-02 Vision & Mission - Cambridge_school.png" alt="">
+    </div>
+   
+    <div class="col">
+      <p>OUR VISION</p>
+      <span>To Develop World Class Professionals through Quality Education</span>
+     <br><br> <p>Our mission</p>
+      <span>To create Academic Excellence in the field of Engineering and Management through Education, Training and Research to improve quality of life of people.</span>
+    </div>
+  </div> 
+</div>  
+ 
+     <br><br>
+<!--footer-->
+    <footer>
+        <div class="footer">
+          <div class="footer1">
+            © college website. 2023 . All rights reserved.
+          </div>
+        </div>
+      </footer>
+  
+  
+  
+  
+  
+      
+  
+    </body>
+  </html>
+  

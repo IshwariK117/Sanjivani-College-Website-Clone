@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .upper {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+      }
+
+      marquee,
+      .marquee {
+        color: #cfa417;
+        width: 200%;
+      }
+      .college-name {
+        padding: 10px;
+        width: 160%;
+      }
+
+      nav {
+       
+        background-image: linear-gradient(to top, #cd7710, #de900f, #eeaa0d);
+        padding: 30px;
+        position: fixed;
+        
+      }
+     
+
+      nav-link {
+        margin: 13px;
+        font-size: 15px;
+      }
+
+      .d-block{
+              height: 600px;
+             
+      }
+
+      .section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left:10px;
+        background-image: linear-gradient(to top, #ffea61, #fff192, #ffffb7);
+      }
+
+      .text-uppercase {
+        display: flex;
+        color:hsla(32, 84%, 52%, 0.932);
+        font-size: 45px;
+        margin-left:20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .text-uppercase:hover,
+      .text-capiotalize:hover {
+        color: #fff;
+        text-shadow: 0 0 5px #cfa417, 0 0 25px #cfa417, 0 0 50px #cfa417,
+          0 0 100px #cfa417;
+      }
+      .text-capiotalize {
+        display: flex;
+        color:hsla(32, 84%, 52%, 0.932);
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 20px;
+      }
+      .section2 {
+        margin: 20px;
+        border: 4px solid #462600;
+        border-radius: 5px;
+      }
+
+      #info {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        margin: 25px;
+        align-items: center;
+        color: #635835;
+        font-size: 20px;
+      }
+
+      #infospan {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        margin: 25px;
+        align-items: center;
+        color: #635835;
+        font-size: 20px;
+      }
+
+      .readMore{
+        margin: 20px;
+        background-color:  #52330f;
+        border-radius: 5px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+       
+        margin: 25px;
+        align-items: center;
+        color: #eee9d8;
+        font-size: 20px;
+        padding: 10px;
+      }
+      .cards {
+        padding: 35px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .card:hover{
+        box-shadow: 0 0 5px #e9cf7c, 0 0 25px #dbd1b1, 0 0 50px #eed171,
+          0 0 100px #eeda99;
+
+      }
+
+      .inspire {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .btn1 {
+        background-image: linear-gradient(to top, #e0c867, #e7d889, #eee8ab);
+        width: 40%;
+        text-align: center;
+        color: #bd6b07;
+        margin: 10px;
+        margin-left: 100px;
+        padding: 10px;
+      }
+
+      .card-text {
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #884f08;
+      }
+
+      .card-text1 {
+        text-align: justify;
+        font-size: 15px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #b1844e;
+      }
+       
+     .partner-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .owl-carousel{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #cd7710;
+        border-radius: 5px;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+      }
+
+      
+
+    
+      .footer {
+        height: 30px;
+        color: #e0c867;
+        text-align: center;
+        background-image: linear-gradient(to top, #613805, #8b4f05, #db7f0f);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="upper">
+      <div class="college-name">
+        <a href="home.html"><img width="50%" src="canva logo.png"</a>
+      </div>
+
+      <div>
+        <marquee behavior="scroll" direction="left">
+          <b>Call For Admission</b>
+          +91-9833443322 | <b>Email Us:</b>contact@college.org.in |
+          <a class="marquee" href="#"> Facebook |</a>
+          <a class="marquee" href="#">Twitter |</a>
+          <a class="marquee" href="#">Youtube |</a>
+          <a class="marquee" href="#">Instagram |</a>
+          <a class="marquee" href="#">Linkedin </a>
+        </marquee>
+      </div>
+    </div>
+    <!--Navigation  bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"
+              >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Institutes
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="engineering.html"
+                >Sanjivani College Of Engineering and MBA</a
+              >
+              <a class="dropdown-item" href="kbp.html"
+                >Sanjivani K.B.P Polytechnic , Best Polytechnic College</a
+              >
+              <a class="dropdown-item" href="pharma.html"
+                >Sanivani College of Pharmaceutical Research</a
+              >
+              <a class="dropdown-item" href="college.html"
+                >Sanivani Senior College ,Arts and Commerce</a
+              >
+              <a class="dropdown-item" href="junior.html">Sanivani Junior College </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            style="background-color: lightgoldenrodyellow"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button
+            style="background-color: lightgoldenrodyellow"
+            class="btn my-2 my-sm-0"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!--carousles-->
+    <div
+      height="200px"
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="sl1 (1).jpeg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="sl1 (2).jpeg" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="sl1(3).png" alt="Third slide" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--College name and photo-->
+    <div class="section">
+      <div class="section1">
+        <div class="text-uppercase">Sanjivani</div>
+        <div class="text-capiotalize"><br /><br />Group of Institute</div>
+
+        <p id="info" class="content">
+          Sanjivani Group of Institutes has a place among the top and
+          most-preferred educational institutes in the country. Since its
+          inception in 1983 under the guidance of Late Shankarraoji G. Kolhe.
+        </p><p id="infospan"></p>
+        <span hidden id="span">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi eum hic placeat aut, odit voluptatibus ullam similique eos esse sit sapiente quos autem cupiditate laboriosam repudiandae, nihil mollitia unde sint.</span>
+        <button class="readMore" onclick="readMore()">Read More</button>
+      </div>
+      <div class="section2">
+        <img src="gate.png" />
+      </div>
+    </div>
+
+    <!--Cards -->
+    <div class="inspire">
+      <div style="font-family: Georgia, 'Times New Roman', Times, serif;" > </div>
+    </div>
+    <div class="cards">
+      <div class="card" style="width: 22rem">
+        <img src="k1 (2).png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Our Inspiration<br />
+            Late Shankarraoji G. Kolhe
+          </p>
+          <p class="card-text1">
+            Former minister, the Pioneer of Socio-economic transformation Late
+            Shankarraoji Kolhe Saheb established Sanjivani Rural Education
+            Society, Kopargaon in the year 1983 and started Sanjivani K. B. P.
+            Polytechnic in the year 1982 and Sanjivani College of Engineering in
+            the year 1983 with the view to impart technical education to the
+            rural masses. The miracle took place many wards of farmers, workers,
+            common people became the engineers and became self-reliant.
+          </p>
+        </div>
+        <a href="#" class="btn1" >Read More</a>
+      </div>
+
+      <div class="card" style="width: 22rem">
+        <img src="k1 (3).png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Hon'ble Nitinrao Shankarraoji Kolhe<br />
+            CHAIRMAN
+          </p>
+          <p class="card-text1">
+            Hon’ble Shri. Shankarrao Genuji Kolhe Saheb is Chairman of the
+            Sanjivani Group of Institutes and established Sanjivani Group of
+            Institutes in the year 1982. Then Chief Minister of Maharashtra,
+            Padmabhooshan Late Shri Vasantraodada Patil realised the gravity of
+            the problem in respect of acute shortage of engineers, decided to
+            permit voluntary organizations to start Engineering Colleges and
+            Polytechnics on "No Grant" basis and urged them to take an
+            initiative in this regard.
+          </p>
+        </div>
+        <a href="#" class="btn1">Read More</a>
+      </div>
+
+      <div class="card" style="width: 22rem">
+        <img src="k1 (1).png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Hon'ble Amit Nitinrao Kolhe<br />
+            MANAGING TRUSTEE
+          </p>
+          <p class="card-text1">
+            Hon'ble Amit Dada is a visionary and an Educationist. He is a
+            dedicated philanthropist, who contributed his life for economic and
+            social development of rural people through education and
+            industrialization. Amit Dada has completed his Computer Engineering
+            along with MBA in Marketing, a blend of being a technocrat and a
+            strategist.
+          </p>
+        </div>
+        <a href="#" class="btn1">Read More</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer1">
+          © college website. 2023 . All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+
+<script type="text/javascript">
+     
+     let span = document.getElementById("span");
+        let down = document.getElementById("infospan");
+ 
+        function readMore() {
+            down.innerHTML = span.innerText;  // used to set or return the text content of a specified tag
+        }  
+   </script>
+
+  </body>
+</html>
