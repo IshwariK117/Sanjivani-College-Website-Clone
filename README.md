@@ -26,7 +26,7 @@ Bootstrap
 ✔️ About Us\
 ✔️ Institute\
 ✔️ Gallery\
-✔️ Contact Us\
+✔️ Contact Us
 
 
 
