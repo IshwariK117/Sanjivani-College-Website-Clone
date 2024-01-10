@@ -5,10 +5,6 @@
 
 
 
-## Screenshots
-
-![App Screenshot](https://github.com/IshwariK117/Sanjivani-College-Website-Clone/blob/main/Screenshot%20(8).png)
-
 
 ## 🛠 Skills
 
