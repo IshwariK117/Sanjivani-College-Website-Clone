@@ -1,4 +1,4 @@
-# Sanjivani-College-website-Clone
+# [Sanjivani-College-website-Clone](https://sanjivani-college-website.netlify.app/home)
 
 
 <p align="center"><img src="https://github.com/IshwariK117/Sanjivani-College-Website-Clone/blob/main/Screenshot%20(8).png" alt="project-image"></p>
