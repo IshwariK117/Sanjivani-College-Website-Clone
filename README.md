@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-You can visit the live demo of the application [here](https://sanjivani-college-website.netlify.app/home) (please replace with your live URL if hosted elsewhere).
+*[You can visit the live demo of the application here](https://sanjivani-college-website.netlify.app/home)*
 
 
 
