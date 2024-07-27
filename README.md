@@ -4,6 +4,10 @@
 <p align="center"><img src="https://github.com/IshwariK117/Sanjivani-College-Website-Clone/blob/main/Screenshot%20(8).png" alt="project-image"></p>
 
 
+## Live Demo
+
+You can visit the live demo of the application [here](https://sanjivani-college-website.netlify.app/home) (please replace with your live URL if hosted elsewhere).
+
 
 
 ## 🛠 Skills
